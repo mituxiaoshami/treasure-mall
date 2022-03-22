@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="treasure-mall-infrastructure" />
+        <module name="treasure-mall-api" />
+        <module name="treasure-mall-domain" />
+        <module name="treasure-mall-components" />
+        <module name="treasure-mall-app" />
+        <module name="treasure-mall-start" />
+        <module name="treasure-mall-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="treasure-mall" target="1.8" />
+      <module name="treasure-mall-api" target="8" />
+      <module name="treasure-mall-app" target="8" />
+      <module name="treasure-mall-components" target="8" />
+      <module name="treasure-mall-domain" target="8" />
+      <module name="treasure-mall-infrastructure" target="8" />
+      <module name="treasure-mall-start" target="8" />
+      <module name="treasure-mall-test" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="treasure-mall-api" options="-parameters" />
+      <module name="treasure-mall-app" options="-parameters" />
+      <module name="treasure-mall-components" options="-parameters" />
+      <module name="treasure-mall-domain" options="-parameters" />
+      <module name="treasure-mall-infrastructure" options="-parameters" />
+      <module name="treasure-mall-start" options="-parameters" />
+      <module name="treasure-mall-test" options="-parameters" />
+    </option>
+  </component>
+</project>

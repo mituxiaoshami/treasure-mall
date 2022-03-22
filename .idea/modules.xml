@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/treasure-mall.iml" filepath="$PROJECT_DIR$/.idea/treasure-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/treasure-mall-api/treasure-mall-api.iml" filepath="$PROJECT_DIR$/treasure-mall-api/treasure-mall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/treasure-mall-app/treasure-mall-app.iml" filepath="$PROJECT_DIR$/treasure-mall-app/treasure-mall-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/treasure-mall-components/treasure-mall-components.iml" filepath="$PROJECT_DIR$/treasure-mall-components/treasure-mall-components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/treasure-mall-domain/treasure-mall-domain.iml" filepath="$PROJECT_DIR$/treasure-mall-domain/treasure-mall-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/treasure-mall-infrastructure/treasure-mall-infrastructure.iml" filepath="$PROJECT_DIR$/treasure-mall-infrastructure/treasure-mall-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/treasure-mall-start/treasure-mall-start.iml" filepath="$PROJECT_DIR$/treasure-mall-start/treasure-mall-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/treasure-mall-test/treasure-mall-test.iml" filepath="$PROJECT_DIR$/treasure-mall-test/treasure-mall-test.iml" />
+    </modules>
+  </component>
+</project>
