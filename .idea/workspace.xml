@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="698efbb8-a927-4eb0-9f0e-cce278869221" name="Default Changelist" comment="feat: 单元测试集成h2数据库" />
+    <list default="true" id="698efbb8-a927-4eb0-9f0e-cce278869221" name="Default Changelist" comment="feat: 后端">
+      <change afterPath="$PROJECT_DIR$/treasure-mall-api/src/main/java/com/example/treasuremall/api/domain/order/OrderTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/treasure-mall-app/src/main/java/com/example/treasuremall/app/order/convert/OrderConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/treasure-mall-test/src/main/resources/features/order/Order.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/BaseCucumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/BaseSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/order/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/order/glue/OrderSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-api/src/main/java/com/example/treasuremall/api/facade/order/OrderQueryFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-api/src/main/java/com/example/treasuremall/api/facade/order/OrderQueryFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-api/target/classes/com/example/treasuremall/api/facade/order/OrderQueryFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-api/target/classes/com/example/treasuremall/api/facade/order/OrderQueryFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-app/src/main/java/com/example/treasuremall/app/item/facade/item/ItemQueryFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-app/src/main/java/com/example/treasuremall/app/item/facade/ItemQueryFacadeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-app/src/main/java/com/example/treasuremall/app/item/facade/order/OrderQueryFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-app/src/main/java/com/example/treasuremall/app/order/facade/OrderQueryFacadeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-app/target/classes/com/example/treasuremall/app/item/facade/item/ItemQueryFacadeImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-app/target/classes/com/example/treasuremall/app/item/facade/order/OrderQueryFacadeImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-start/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-start/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/main/java/com/example/treasuremall/test/util/TransformMysqlToH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/src/main/java/com/example/treasuremall/test/util/TransformMysqlToH2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/main/resources/db/h2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/src/main/resources/db/h2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/BaseJUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/Cucumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/ErrorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/ErrorJUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/LogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/LogJUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/target/classes/com/example/treasuremall/test/util/TransformMysqlToH2.class" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/target/classes/com/example/treasuremall/test/util/TransformMysqlToH2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/target/classes/db/h2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/target/classes/db/h2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/target/test-classes/com/example/treasuremall/test/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/target/test-classes/com/example/treasuremall/test/Cucumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/target/test-classes/com/example/treasuremall/test/ErrorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/target/test-classes/com/example/treasuremall/test/LogTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +80,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/treasure-mall-app/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -60,6 +89,9 @@
     <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.treasuremall.api.facade.order" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/treasure-mall-app/src/main/resources" />
       <recent name="$PROJECT_DIR$/treasure-mall-test/src/main/resources" />
@@ -68,6 +100,7 @@
       <recent name="$PROJECT_DIR$/treasure-mall-start/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/treasure-mall-test/src/main/resources/features/order" />
       <recent name="$PROJECT_DIR$/treasure-mall-components/src/main/java/com/example/treasuremall/componenets/parallel" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -76,34 +109,39 @@
       <recent name="com.example.treasuremall.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.TreasureMallApplication">
-    <configuration name="TransformMysqlToH2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.treasuremall.test.util.TransformMysqlToH2" />
-      <module name="treasure-mall-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.treasuremall.test.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrderTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cucumber.queryAllOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: 查询所有订单" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/treasure-mall-test/src/main/resources/features/order/Order.feature" />
+      <option name="GLUE" value="cucumber.api.spring com.example.treasuremall.test.order.glue" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="treasure-mall-test" />
+      <option name="NAME_FILTER" value="^查询所有订单$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^查询所有订单$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 查询所有订单" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="treasure-mall-test" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +150,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.treasuremall.test" />
-      <option name="MAIN_CLASS_NAME" value="com.example.treasuremall.test.Cucumber" />
-      <option name="METHOD_NAME" value="queryAllOrder" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.example.treasuremall.test.BaseCucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cucumber.say" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogJUnitTest.queryItemById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="treasure-mall-test" />
       <extension name="coverage">
         <pattern>
@@ -128,41 +165,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.treasuremall.test" />
-      <option name="MAIN_CLASS_NAME" value="com.example.treasuremall.test.Cucumber" />
-      <option name="METHOD_NAME" value="say" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ErrorTest.say" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="treasure-mall-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.treasuremall.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.treasuremall.test" />
-      <option name="MAIN_CLASS_NAME" value="com.example.treasuremall.test.ErrorTest" />
-      <option name="METHOD_NAME" value="say" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogTest.queryItemById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="treasure-mall-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.treasuremall.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.treasuremall.test" />
-      <option name="MAIN_CLASS_NAME" value="com.example.treasuremall.test.LogTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.treasuremall.test.LogJUnitTest" />
       <option name="METHOD_NAME" value="queryItemById" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderSteps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="treasure-mall-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.treasuremall.test.order.glue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.treasuremall.test.order.glue" />
+      <option name="MAIN_CLASS_NAME" value="com.example.treasuremall.test.order.glue.OrderSteps" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="treasure-mall-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.treasuremall.test.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.treasuremall.test.order" />
+      <option name="MAIN_CLASS_NAME" value="com.example.treasuremall.test.order.OrderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,20 +211,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LogTest.queryItemById" />
-      <item itemvalue="JUnit.Cucumber.say" />
-      <item itemvalue="JUnit.ErrorTest.say" />
       <item itemvalue="Spring Boot.TreasureMallApplication" />
-      <item itemvalue="Application.TransformMysqlToH2" />
-      <item itemvalue="JUnit.Cucumber.queryAllOrder" />
+      <item itemvalue="JUnit.OrderTest" />
+      <item itemvalue="JUnit.BaseCucumberTest" />
+      <item itemvalue="JUnit.LogJUnitTest.queryItemById" />
+      <item itemvalue="JUnit.OrderSteps" />
+      <item itemvalue="Cucumber Java.Scenario: 查询所有订单" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Cucumber.queryAllOrder" />
-        <item itemvalue="JUnit.Cucumber.say" />
-        <item itemvalue="Application.TransformMysqlToH2" />
-        <item itemvalue="JUnit.ErrorTest.say" />
-        <item itemvalue="JUnit.LogTest.queryItemById" />
+        <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="Cucumber Java.Scenario: 查询所有订单" />
+        <item itemvalue="JUnit.BaseCucumberTest" />
+        <item itemvalue="JUnit.OrderSteps" />
+        <item itemvalue="JUnit.LogJUnitTest.queryItemById" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +308,13 @@
       <workItem from="1647582736227" duration="5537000" />
       <workItem from="1647842819582" duration="3929000" />
       <workItem from="1647863030993" duration="2330000" />
-      <workItem from="1647937699657" duration="9464000" />
+      <workItem from="1647937699657" duration="10682000" />
+      <workItem from="1648003970104" duration="543000" />
+      <workItem from="1648004898882" duration="960000" />
+      <workItem from="1648007230483" duration="595000" />
+      <workItem from="1648023525169" duration="1154000" />
+      <workItem from="1648025602019" duration="154000" />
+      <workItem from="1648025862773" duration="9748000" />
     </task>
     <task id="LOCAL-00001" summary="feat: first commit">
       <created>1629188029514</created>
@@ -403,11 +444,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />

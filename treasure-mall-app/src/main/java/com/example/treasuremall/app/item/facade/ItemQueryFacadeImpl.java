@@ -1,4 +1,4 @@
-package com.example.treasuremall.app.item.facade.item;
+package com.example.treasuremall.app.item.facade;
 
 import com.example.treasuremall.api.facade.item.ItemQueryFacade;
 import com.example.treasuremall.app.order.entity.Order;

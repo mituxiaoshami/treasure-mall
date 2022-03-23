@@ -1,6 +1,8 @@
-package com.example.treasuremall.app.item.facade.order;
+package com.example.treasuremall.app.order.facade;
 
+import com.example.treasuremall.api.domain.order.OrderTO;
 import com.example.treasuremall.api.facade.order.OrderQueryFacade;
+import com.example.treasuremall.app.order.convert.OrderConvert;
 import com.example.treasuremall.app.order.entity.Order;
 import com.example.treasuremall.app.order.mapper.OrderMapper;
 import com.example.treasuremall.componenets.log.LogRecord;
@@ -23,9 +25,9 @@ public class OrderQueryFacadeImpl implements OrderQueryFacade {
     private OrderMapper orderMapper;
 
     @Override
-    public void queryAllOrder() {
+    public List<OrderTO> queryAllOrder() {
         List<Order> orderList = orderMapper.queryAllOrder();
-        log.info("订单列表:{}", orderList);
+        return OrderConvert.transferOrderTOListFromOrderList(orderList);
     }
 
 }

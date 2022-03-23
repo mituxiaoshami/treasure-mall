@@ -8,7 +8,7 @@ import org.junit.Test;
  * @description 异常模块测试类
  * @date 2022/3/21 3:07 下午
  */
-public class ErrorTest extends BaseTest {
+public class ErrorJUnitTest extends BaseJUnitTest {
 
 
     @Test
