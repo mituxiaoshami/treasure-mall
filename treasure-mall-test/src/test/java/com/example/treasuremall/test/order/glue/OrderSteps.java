@@ -46,12 +46,12 @@ public class OrderSteps extends BaseSteps {
     }
 
 
-    @Given("^根据条件查询订单$")
-    public void queryOrderByParam() {
-
+    @Given("^根据条件查询订单,用例名 \"(.*)\"$")
+    public void queryOrderByParam(String caseName) {
+        log.info("用例名:{}", caseName);
     }
 
-    @When("^根据条件查询订单 \"([^\"]*)\"$")
+    @When("^条件 \"(.*)\"$")
     public void queryOrderByParamWhen(String param) {
         log.info("根据条件查询订单,条件:{}", param);
         List<OrderTO> orderTOList = orderQueryFacade.queryAllOrder();
@@ -59,8 +59,8 @@ public class OrderSteps extends BaseSteps {
     }
 
     @Then("^根据条件查询订单返回结果 \"([^\"]*)\"$")
-    public void queryOrderByParamThen() {
-        System.out.println("HelloWorld");
+    public void queryOrderByParamThen(String responseData) {
+        log.info("根据条件查询订单返回结果:{}", responseData);
     }
 
 }

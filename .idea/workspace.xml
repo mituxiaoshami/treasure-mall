@@ -4,35 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="698efbb8-a927-4eb0-9f0e-cce278869221" name="Default Changelist" comment="feat: 后端">
-      <change afterPath="$PROJECT_DIR$/treasure-mall-api/src/main/java/com/example/treasuremall/api/domain/order/OrderTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasure-mall-app/src/main/java/com/example/treasuremall/app/order/convert/OrderConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasure-mall-test/src/main/resources/features/order/Order.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/BaseCucumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/BaseSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/order/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/order/glue/OrderSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="698efbb8-a927-4eb0-9f0e-cce278869221" name="Default Changelist" comment="feat: springboot 继承cucumber">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-api/src/main/java/com/example/treasuremall/api/facade/order/OrderQueryFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-api/src/main/java/com/example/treasuremall/api/facade/order/OrderQueryFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-api/target/classes/com/example/treasuremall/api/facade/order/OrderQueryFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-api/target/classes/com/example/treasuremall/api/facade/order/OrderQueryFacade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-app/src/main/java/com/example/treasuremall/app/item/facade/item/ItemQueryFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-app/src/main/java/com/example/treasuremall/app/item/facade/ItemQueryFacadeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-app/src/main/java/com/example/treasuremall/app/item/facade/order/OrderQueryFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-app/src/main/java/com/example/treasuremall/app/order/facade/OrderQueryFacadeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-app/target/classes/com/example/treasuremall/app/item/facade/item/ItemQueryFacadeImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-app/target/classes/com/example/treasuremall/app/item/facade/order/OrderQueryFacadeImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-start/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-start/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/main/java/com/example/treasuremall/test/util/TransformMysqlToH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/src/main/java/com/example/treasuremall/test/util/TransformMysqlToH2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/main/resources/db/h2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/src/main/resources/db/h2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/BaseJUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/Cucumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/ErrorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/ErrorJUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/LogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/LogJUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-test/target/classes/com/example/treasuremall/test/util/TransformMysqlToH2.class" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/target/classes/com/example/treasuremall/test/util/TransformMysqlToH2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-test/target/classes/db/h2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/target/classes/db/h2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-test/target/test-classes/com/example/treasuremall/test/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-test/target/test-classes/com/example/treasuremall/test/Cucumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-test/target/test-classes/com/example/treasuremall/test/ErrorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure-mall-test/target/test-classes/com/example/treasuremall/test/LogTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/main/resources/features/order/Order.feature" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/src/main/resources/features/order/Order.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/order/glue/OrderSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/order/glue/OrderSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,13 +85,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.OrderTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,12 +188,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.TreasureMallApplication" />
+      <item itemvalue="Cucumber Java.Scenario: 查询所有订单" />
       <item itemvalue="JUnit.OrderTest" />
       <item itemvalue="JUnit.BaseCucumberTest" />
       <item itemvalue="JUnit.LogJUnitTest.queryItemById" />
       <item itemvalue="JUnit.OrderSteps" />
-      <item itemvalue="Cucumber Java.Scenario: 查询所有订单" />
+      <item itemvalue="Spring Boot.TreasureMallApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -314,7 +291,8 @@
       <workItem from="1648007230483" duration="595000" />
       <workItem from="1648023525169" duration="1154000" />
       <workItem from="1648025602019" duration="154000" />
-      <workItem from="1648025862773" duration="9748000" />
+      <workItem from="1648025862773" duration="10234000" />
+      <workItem from="1648088961612" duration="1183000" />
     </task>
     <task id="LOCAL-00001" summary="feat: first commit">
       <created>1629188029514</created>
@@ -435,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647947427919</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: springboot 继承cucumber">
+      <created>1648039902373</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648039902373</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +482,8 @@
     <MESSAGE value="feat: 异常模块封装" />
     <MESSAGE value="feat: 项目继承mybatis+h2" />
     <MESSAGE value="feat: 单元测试集成h2数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 单元测试集成h2数据库" />
+    <MESSAGE value="feat: springboot 继承cucumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: springboot 继承cucumber" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,6 +496,11 @@
           <url>jar:///Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ForkJoinPool.java</url>
           <line>2336</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/treasure-mall-test/src/test/java/com/example/treasuremall/test/order/glue/OrderSteps.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
