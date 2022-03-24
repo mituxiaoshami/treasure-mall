@@ -1,4 +1,4 @@
-package com.example.treasuremall.test;
+package com.example.treasuremall.test.common;
 
 import com.example.treasuremall.componenets.disruptor.event.factory.OrderDisruptorEventFactory;
 import com.example.treasuremall.componenets.disruptor.event.order.OrderDisruptorEvent;

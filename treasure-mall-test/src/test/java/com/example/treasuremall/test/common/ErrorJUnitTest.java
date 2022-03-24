@@ -1,6 +1,7 @@
-package com.example.treasuremall.test;
+package com.example.treasuremall.test.common;
 
 import com.example.treasuremall.componenets.error.enums.impl.ItemErrorEnum;
+import com.example.treasuremall.test.BaseJUnitTest;
 import org.junit.Test;
 
 /**

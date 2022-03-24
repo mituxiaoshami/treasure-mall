@@ -4,7 +4,6 @@
     <file url="file://$PROJECT_DIR$/treasure-mall-test/src/main/resources/db/data.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/treasure-mall-test/src/main/resources/db/h2.sql" dialect="H2" />
     <file url="file://$PROJECT_DIR$/treasure-mall-test/src/main/resources/db/mysql.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/treasure-mall-test/target/classes/db/h2.sql" dialect="H2" />
     <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>
